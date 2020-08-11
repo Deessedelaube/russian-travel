@@ -3,7 +3,7 @@
   max-width: 640px;
   text-align: center;
   font-size: 3em;
-  line-height: 120%;
+  line-height: 1.2;
   font-style: normal;
   font-weight: normal;
 }
@@ -15,5 +15,5 @@
   .lead__subtitle{
   margin-bottom: 40px;
   font-size: 1.6em;
-  line-height: 125%;
+  line-height: 1.25;
 }}
