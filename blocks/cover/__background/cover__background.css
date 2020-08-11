@@ -1,0 +1,11 @@
+.cover__background{
+  width: 100%;
+  margin: 0;
+  padding-bottom: 62.5%;
+  position: relative;
+  background-image: url(../../../sprint-3-images/__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}

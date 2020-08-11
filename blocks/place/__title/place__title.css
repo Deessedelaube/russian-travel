@@ -1,0 +1,32 @@
+.place__title{
+margin: 0;
+width: 100%;
+grid-row: 1;
+grid-column: 1;
+font-size: 4.5rem;
+font-weight: 900;
+line-height: 1.06;
+text-align: left;
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .place__title{
+      font-size: 2.625rem;
+      line-height: 1.1;
+      margin: 0 auto;
+    }}
+    @media only screen and (max-width: 767px) and (min-width: 425px){
+      .place__title{
+        max-width: calc(100% - 32px);
+        font-size: 2.625rem;
+        line-height: 1.1;
+        margin: 0 auto;
+      }
+    }
+    @media only screen and (max-width: 424px){
+      .place__title{
+        margin: 0 auto;
+        max-width: calc(100% - 32px);
+        font-size: 2rem;
+        line-height: 1.09;
+
+      }}

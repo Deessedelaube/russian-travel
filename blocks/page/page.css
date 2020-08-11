@@ -1,0 +1,19 @@
+@import url(../../vendors/normalize.css);
+@import url(../../vendors/fonts/inter.css);
+@import url(../header/header.css);
+@import url(../lead/lead.css);
+@import url(../intro/intro.css);
+@import url(../photo-grid/photo-grid.css);
+@import url(../places/places.css);
+@import url(../place/place.css);
+@import url(../cover/cover.css);
+@import url(../footer/footer.css);
+
+
+.page{
+  margin: 0 auto;
+  font-family:'Inter', Arial, sans-serif;
+  background-color:#2A2C2F ;
+  color: white;
+  font-size: 16px;
+}

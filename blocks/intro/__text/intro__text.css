@@ -1,0 +1,11 @@
+.intro__text{
+  margin: 40px 0 32px;
+  max-width: 690px;
+  box-sizing: border-box;
+  min-height: 209px;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 163%;
+  text-align: left;
+}
+

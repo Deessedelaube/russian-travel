@@ -1,0 +1,10 @@
+.place__website{
+grid-row: 1;
+grid-column: 2;
+align-self: end;
+font-size: inherit;
+}
+@media only screen and (max-width: 767px){
+  .place__website{
+    display: none;
+  }}

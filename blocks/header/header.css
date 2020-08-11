@@ -1,22 +1,27 @@
-@import url(../logo/_place/_header/);
-@import url(../logo/logo.css);
-@import url(../rotation/rotation.css);
-@import url(./__title/header__title.css);
-@import url(./__subtitle/header__subtitle.css);
-@import url(./__link/header__link.css);
-@import url(./__main-illustration/header__main-illustration.css);
-@import url(./__square-pic/header__square-pic.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
 
-
-.header {
-  margin: 0;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+.header{
+  margin: 0 auto;
+  padding-top: 28px;
+  width: 92.5%;
   display: flex;
-  justify-content: flex-start;
-  position: relative;
-  background-color: #f2f2f2;
-  overflow: hidden;
-  /* выше установили ограничения для секции */
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .header{
+    max-width: 90%;
+  }
 }
+@media only screen and (min-width: 320px) and (max-width: 767px){
+  .header{
+    max-width: 94%;
+  }
+}
+@media only screen and (max-width: 319px){
+  .header{
+    width: 90%;
+}}
