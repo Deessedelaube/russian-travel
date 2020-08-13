@@ -9,7 +9,7 @@
   .places{
   padding-bottom: 88px;
 }}
-@media only screen and (max-width: 424) {
+@media only screen and (max-width: 424px) {
   .places{
   padding-bottom: 64px;
 }}

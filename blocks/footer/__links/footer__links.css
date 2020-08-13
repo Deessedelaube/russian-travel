@@ -6,6 +6,7 @@
   cursor: pointer;
   list-style-type: none;
   list-style: none;
+  padding-left: 0;
 }
 @media only screen and (max-width:767px){
   .footer__links{
