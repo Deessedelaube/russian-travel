@@ -1,4 +1,4 @@
-@import url(./__item/photo-grid__item.css);
+@import url("./__item/photo-grid__item.css");
 
 .photo-grid{
 margin: 0 auto;
@@ -14,26 +14,23 @@ gap: 16px;
   .photo-grid{
   padding-right: 48px;
   padding-left: 48px;
-  }
-}
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-  .photo-grid{
-  padding-right: 48px;
-  padding-left: 48px;
-  gap: 14px;
-  }
-}
-@media only screen and (max-width: 767px) and (min-width: 425px){
+  }}
+  @media only screen and (max-width: 1023px) and (min-width: 768px){
   .photo-grid{
   padding-right: 24px;
   padding-left: 24px;
-  }
-}
-@media only screen and (max-width: 425px){
-  .photo-grid{
-  margin: 0;
-  padding-right: 16px;
-  padding-left: 16px;
-  gap: 12px;
-  }
-}
+  grid-template-columns: repeat(auto-fit, fit-content(352px));
+  }}
+    @media only screen and (max-width: 767px) and (min-width: 425px){
+    .photo-grid{
+    padding-right: 24px;
+    padding-left: 24px;
+    gap: 14px;
+    }}
+      @media only screen and (max-width: 425px){
+      .photo-grid{
+      margin: 0;
+      padding-right: 16px;
+      padding-left: 16px;
+      gap: 12px;
+      }}

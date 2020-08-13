@@ -1,6 +1,15 @@
 .places{
   margin: 0 auto;
+  padding-bottom: 92px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
+@media only screen and (max-width: 1023px) and (min-width: 425px){
+  .places{
+  padding-bottom: 88px;
+}}
+@media only screen and (max-width: 424) {
+  .places{
+  padding-bottom: 64px;
+}}

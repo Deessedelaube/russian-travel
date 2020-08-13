@@ -7,10 +7,12 @@
   font-style: normal;
   text-align: center;
   color: #FFF;
+  position: relative;
   z-index: 10;
   }
   @media only screen and (max-width: 767px) {
     .cover__title {
+      max-width: 288px;
       font-size: 32px;
       line-height: 1.09;
     }}

@@ -1,38 +1,35 @@
-@import url(./__title/intro__title.css);
-@import url(./__text/intro__text.css);
-@import url(./__list/intro__list.css);
+@import url("./__title/intro__title.css");
+@import url("./__text/intro__text.css");
+@import url("./__list/intro__list.css");
+@import url("./__list-number/intro__list-number.css");
 
 .intro{
-  margin: 0;
+  margin: 0 auto;
   box-sizing: content-box;
-  max-width: 690px;
+  max-width: 984px;
   padding-top: 92px;
-  padding-left: 148px;
   padding-bottom: 92px;
 }
-@media only screen and (max-width: 1280px) and (min-width: 1024px){
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
   .intro{
   padding-left: 48px;
 }}
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
   .intro {
-    margin: 0 auto;
     padding-top: 88px;
-    padding-left: 0;
+    padding-left: 24px;
     padding-bottom: 88px;
 }}
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .intro {
     width: calc(100% - 48px);
-    margin: 0 auto;
     padding-top: 88px;
     padding-left: 0;
     padding-bottom: 88px;
 }}
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 424px){
   .intro {
     width: calc(100% - 32px);
-    margin: 0 auto;
     padding-top: 64px;
     padding-left: 0;
     padding-bottom: 64px;

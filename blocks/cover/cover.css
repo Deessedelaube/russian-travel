@@ -1,16 +1,45 @@
-@import url(./__overlay/cover_overlay.css);
-@import url(./__background/cover__background.css);
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__text/cover__text.css);
+@import url("./__overlay/cover_overlay.css");
+@import url("./__background/cover__background.css");
+@import url("./__title/cover__title.css");
+@import url("./__subtitle/cover__subtitle.css");
 
+/* Как сделать его резиновым,. если это ссылка? */
 .cover{
   margin: 0 auto;
-  padding-top: 92px;
-  max-width: 1184px;
+  width: 1184px;
+  height: 740px;
   box-sizing: border-box;
+  background-image: url("../../../sprint-3-images/__background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
 }
-@media only screen and (max-width: 1279px) {
-  cover{
-      margin: 0;
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+  .cover{
+      margin: 0 auto;
+      width: 1024px;
+      height: 640px;
     }}
+
+  @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .cover{
+      margin: 0 auto;
+      width: 768px;
+      height: 480px;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 425px){
+    .cover{
+      margin: 0 auto;
+      width: 425px;
+      height: 265px;
+    }
+  }
+  @media only screen and (max-width: 425px){
+    .cover{
+      margin: 0 auto;
+      width: 320px;
+      height: 200px;
+  }}

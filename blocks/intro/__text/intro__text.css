@@ -1,5 +1,5 @@
 .intro__text{
-  margin: 40px 0 32px;
+  margin: 40px auto 32px 0;
   max-width: 690px;
   box-sizing: border-box;
   min-height: 209px;
