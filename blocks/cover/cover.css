@@ -1,4 +1,4 @@
-@import url("./__overlay/cover_overlay.css");
+@import url("./__overlay/cover__overlay.css");
 @import url("./__background/cover__background.css");
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
@@ -9,10 +9,6 @@
   width: 1184px;
   height: 740px;
   box-sizing: border-box;
-  background-image: url("../../sprint-3-images/cover-train.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   position: relative;
   z-index: 1;
 }
